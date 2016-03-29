@@ -1,4 +1,4 @@
-?.%%plantuml
+%%plantuml
 @startuml
 start
 :set how many turns;
