@@ -1,0 +1,21 @@
+@startuml
+
+title Colculate BMI
+
+start
+
+:get user input height;
+:get user input weight;
+:BMI=weight/(height*height);
+if(BMI<=17.5)
+  :print 'Row weight';
+elseif(17.5<BMI<=23.0)
+  :print 'Normal weight';
+elseif(23.0<BMI<25.0)
+  :print 'Over weight';
+else
+  :print 'very over weight';
+endif
+stop
+
+@enduml
